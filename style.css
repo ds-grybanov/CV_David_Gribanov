@@ -1,0 +1,190 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  color: inherit;
+}
+
+li {
+  list-style: none;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 24px;
+  color: #333333;
+}
+
+.container {
+  max-width: 1366px;
+  margin: 0 auto;
+}
+
+.header{
+  display: flex;
+  margin: 72px 0 72px 72px;
+}
+
+.person__photo {
+  max-width: 190px;
+  margin-right: 56px;
+}
+
+.person__photo img {
+  width: 100%;
+  border-radius: 50%;
+  object-position: center;
+  object-fit: cover;
+}
+
+.person__info-title {
+  font-size: 40px;
+  font-style: 700;
+  margin-bottom: 12px;
+}
+
+.person__info-text {
+  color: #7F8082;
+  margin-bottom: 32px;
+}
+
+.person__info-links {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.person__info-links li {
+  font-size: 18px;
+  list-style: none;
+  margin-right: 32px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.person__link {
+  margin-left: 5px;
+}
+
+span::before {
+  font-size: 20px;
+}
+
+.main {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 72px;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.left__info {
+  max-width: 690px;
+}
+
+.right__info {
+  max-width: 335px;
+}
+
+.profile {
+  margin-bottom: 72px;
+}
+
+.title {
+  margin-bottom: 16px;
+  color: #7F8082;
+  font-size: 20px;
+  text-transform: uppercase;
+  font-style: 400;
+  position: relative;
+}
+
+.title::after {
+  content: '';
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  height: 1px;
+  width: 100%;
+  background-color: #7F8082;
+}
+
+.skills__list li {
+  list-style: none;
+}
+
+.skills, 
+.tools,
+.education {
+  margin-bottom: 56px;
+}
+
+.tabs__nav {
+  display: flex;
+}
+
+.tabs__nav-btn {
+  padding: 15px 30px;
+  font-size: 16px;
+  color: #333333;
+  background-color: #f5f5f5;
+  border: 0;
+  border-right: 1px solid #ddd;
+  cursor: pointer;
+  border-bottom: 1px solid #ddd;
+}
+
+.tabs__nav-btn:last-child {
+  border-right: none;
+}
+
+.tabs__nav-btn:hover {
+  background-color: #fff;
+}
+
+.tabs__nav-btn.active {
+  background-color: #f5f5f5;
+  border-right-color: #ddd;
+  color: #333333;
+  border-bottom: none;
+}
+
+.tabs__content {
+  padding: 30px;
+  background-color: #f4f4f4;
+  margin-bottom: 38px;
+}
+
+.tabs__item {
+  display: none;
+}
+
+.tabs__item.active {
+  display: block;
+}
+
+.expirience__title {
+  margin-top: 24px;
+  margin-bottom: 8px;
+  font-size: 22px;
+  line-height: 32px;
+}
+
+.expirience__info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 16px;
+}
+
+.education__info-text {
+  margin: 4px 0;
+}
+
+.languages {
+  margin-bottom: 72px;
+}

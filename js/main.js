@@ -1,7 +1,11 @@
+
+//Tabs
 const tabsBtn = document.querySelectorAll('.tabs__nav-btn');
 const tabsItems = document.querySelectorAll('.tabs__item');
 
 tabsBtn.forEach(onTabClick);
+
+document.querySelector('.tabs__nav-btn').click();
 
 function onTabClick(item) {
     item.addEventListener('click', () => {
@@ -24,4 +28,3 @@ function onTabClick(item) {
     });
 }
 
-document.querySelector('.tabs__nav-btn').click();

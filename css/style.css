@@ -226,12 +226,12 @@ h4 {
   .person__info-links {
     position: absolute;
     left: 0;
-    bottom: -110px;
+    bottom: -160px;
   }
 
   .main {
     flex-direction: column;
-    margin-top: 125px;
+    margin-top: 185px;
   }
 
   .profile,

@@ -32,17 +32,20 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-.icon-phone_black_24dp-2:before {
+.icon-download-button-svgrepo-com:before {
   content: "\e900";
 }
+.icon-phone_black_24dp-2:before {
+  content: "\e904";
+}
 .icon-iconmonstr-github-1:before {
-  content: "\e901";
+  content: "\e905";
 }
 .icon-iconmonstr-gmail-1-1:before {
-  content: "\e902";
+  content: "\e906";
 }
 .icon-iconmonstr-linkedin-3:before {
-  content: "\e903";
+  content: "\e907";
 }
 
 
